@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 50px;
+    border: 2px solid green;
+}
+
+.headerboxes {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid red;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.hlinks {
+    font-size: 18px;
+    text-align: center;
+    color: #e5e7eb;
+
+    display: flex;
+    flex: 1 1 0;
+    justify-content: flex-end;
+}
+
+.headerlink {
+    color: #e5e7eb;
+    flex: 1 1 0;
+}
+
+.awesome {
+    background-color: #1F2937;
+    height: 500px;
+    padding: 50px;
+    border: 2px solid red;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awesome .awesomeboxes {
+    height: 300px;
+    width: 550px;
+    border: 2px solid red;
+    background-color: green;
+}
+
+.randominformation {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.randominformation .textbox {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.randominformation .textbox .text {
+    justify-content: center;
+    align-self: center;
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 200px;
+}
+
+.randominformation .boxes {
+    display: flex;
+    justify-content: center;
+    
+    height: 400px;
+    width: 100%;
+    gap: 50px;
+}
+
+.randominformation .box {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 5px solid #3882f6;
+}
+
+
+.footer {
+    background-color: #1F2937;
+}
+
+.button {
+    color: #3882f6
+}
+
+.inspiringquote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.calltoaction {
+    background-color: #3882f6;
+}
+
